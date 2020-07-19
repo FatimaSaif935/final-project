@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/survey.png">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Test</title>
+
+<style>
+    
+   .question{
+       font-size: 50px;
+       margin-right: 5%;
+       font-weight: bold;
+   }
+
+   #mc1{
+       margin-right: 10%;
+   }
+
+   #mc2{
+
+margin-right: 10%;
+}
+
+#mc3{
+
+margin-right: 10%;
+}
+
+#mc4{
+
+margin-right: 10%;
+}
+
+#mc5{
+
+margin-right: 10%;
+}
+
+#mc6{
+
+margin-right: 10%;
+}
+
+#mc7{
+
+margin-right: 10%;
+}
+
+#mc8{
+
+margin-right: 10%;
+}
+
+#mc9{
+
+margin-right: 10%;
+}
+
+#mc10{
+
+margin-right: 10%;
+}
+
+#mc11{
+
+margin-right: 10%;
+}
+
+#mc12{
+
+margin-right: 10%;
+}
+
+   #button{
+margin-right: 40%;
+font-size: 40px;
+background: #00b4db;
+  background: -webkit-linear-gradient(to right, #00b4db, #0083b0); 
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 4px solid rgb(105, 240, 211);
+  padding: 10px;
+  font-family: 'Almarai', sans-serif;
+  text-align: center;
+  opacity:0.5;
+   }
+
+   #button:hover{
+ opacity:1;
+
+   }
+
+   #answer1{
+       visibility: hidden;
+   }
+
+
+</style>
+
+</head>
+<body class="btest bg-pan-left">
+
+
+
+
+    <div class="header">
+
+
+
+        <img class="logo" src="./img/d7b96874-7b84-4fac-977a-270c90a50e10.png">
+        <h1 class="slogan">مع خرّيج واضح لك الطريج</h1>
+
+        <br>
+      </div>
+
+      <ul>
+        <li><a  href="./index.html">الصفحة الرئيسية</a></li>
+        <li><a href="./uni.html">الجامعات</a></li>
+        <li><a href="./kwuni.html">جامعة الكويت</a></li>
+        <li><a class="active" href="./test.html">الاختبار</a></li>
+      </ul>
+
+
+
+        <div style="margin-left: 2%; background: rgba(255, 255, 255, 0.884);" class="content2"> 
+  
+            <img class="icons flip-vertical-right" src="./img/question.png">
+            
+            <br>
+            
+                    <h1 style="text-align: center; margin-right: 15%;" class="title1">محتار شنو تختار؟</h1>
+                    
+                <br>
+                
+                
+                    <p class="p1">
+                        إن لم تكن قد اخترت التخصص الذي تود سلوكه فلا تقلق عزيزنا الطالب، فالعديد من زملائك و زميلاتك يمرون بنفس الشيء، و لأجل ذلك صممنا هذا الإختبار، ليعطيكم و لو فكرة بسيطة عن التخصص الأنسب لكم، وفقاً لمؤهلاتكم و ميولكم، متمنين لكم كل الإستفادة 
+                    </p>
+
+<br> 
+<h1 style="text-align: center;" class="title1">اختر الإجابات الأنسب لك</h1>
+
+<br>
+<br>
+
+<form class="test" name="test">
+
+  <img class="icons" src="./img/book.png">
+    <br>
+
+
+<p class="question"> اختر شعبتك</p>
+<input type="radio" id="mc1" name="question 1" value="علمي">
+<label for="علمي">علمي</label>
+<br>
+<input type="radio" id="mc2" name="question 1" value="أدبي">
+<label for="أدبي">أدبي</label>
+<br>
+<br>
+<img class="icons scale-up-center" src="./img/grade.png">
+<br>
+
+<p class="question"> اختر النطاق الذي تتواجد فيه نسبة شهادتك الثانوية</p>
+<input type="radio" id="mc3" name="question 2" value="80-100">
+<label for="80-100">80-100</label>
+<br>
+<input type="radio" id="mc4" name="question 2" value="60-80">
+<label for="60-80">60-80</label>
+<br>
+<br>
+<img class="icons" src="./img/classroom.png">
+<br>
+
+<p class="question"> أتفضل العمل الميداني أم المكتبي؟</p>
+<input type="radio" id="mc5" name="question 3" value="الميداني">
+<label for="الميداني">الميداني</label>
+<br>
+<input type="radio" id="mc6" name="question 3" value="المكتبي">
+<label for="المكتبي">المكتبي</label>
+<br>
+<br>
+<img class="icons rotate-center" src="./img/teamwork.png">
+<br>
+
+<p class="question"> أتفضل العمل لوحدك أم العمل الجماعي؟</p>
+<input type="radio" id="mc7" name="question 4" value="وحدي">
+<label for="وحدي">وحدي</label>
+<br>
+<input type="radio" id="mc8" name="question 4" value="جماعي">
+<label for="جماعي">جماعي</label>
+<br>
+<br>
+<img class="icons" src="./img/clock.png">
+<br>
+
+<p class="question"> أتفضل العمل الحر أم المقيد بساعات معينة؟</p>
+<input type="radio" id="mc9" name="question 5" value="الحر">
+<label for="الحر">الحر</label>
+<br>
+<input type="radio" id="mc10" name="question 5" value="المقيد">
+<label for="المقيد">المقيد</label>
+<br>
+<br>
+<img class="icons rotate-90-top-ccw" src="./img/drawing (1).png">
+<br>
+
+<p class="question"> إلى أي جانب تميل أكثر؟</p>
+<input type="radio" id="mc11" name="question 6" value="الفني">
+<label for="الفني">الفني</label>
+<br>
+<input type="radio" id="mc12" name="question 6" value="العلمي">
+<label for="العلمي">العلمي</label>
+<br>
+<br>
+<br>
+
+<input id="button" type="button" value="أحصل على النتيجة" onclick="show();">
+
+
+</form>
+
+
+<div id="answer1">
+    <br>
+<h1 style="text-align: center; font-size: 50px;" class="title1">
+حسب إجاباتك فإن التخصصات الأنسب لك قد تكون التالية 
+</h1>
+
+<br>
+
+<p id="pro" style="font-size: 35x; ">
+  <!-- التخصصات الهندسية (هندسة كمبيوتر، هندسة برمجية، هندسة معمارية، هندسة كيميائية إلخ..) - التخصصات الطبية (الجراحة، طب عام، طب أسنان، طب مساعد إلخ..) - التخصصات العلمية (الفيزياء، الرياضيات، الأحياء، الجيلوجيا، إلخ..) -->
+</p>
+
+<br>
+<h1 style="text-align: center; font-size: 30px;" class="title1">
+  هل وجدت نتائج الإختبار مناسبة؟ اطلع على صفحات الجامعات المتوفرة في الموقع لتختار جامعة تتلائم و تخصصك
+  </h1>
+
+<br>
+
+<a href="./uni.html"><img src="./img/cf51ad748537f4ea6899ab44388ad110.gif" style="width: 400px; border-radius: 40%; margin-right: 34%;"></a>
+
+
+</div>
+
+    
+</div>
+
+
+</div>
+
+
+
+
+    
+
+
+    
+    
+   
+
+     <footer>
+
+
+            <p>
+                <b>تواصل معنا</b>
+            </p>
+    
+             <a  href="https://www.youtube.com/channel/UCWkJZG9vMAYXS4QONor_XZg?view_as=subscriber"> <img  src="./img/youtube (2).png"  width="70px" ></a>
+             <a href="https://www.instagram.com/angel_93533/"> <img  src="./img/social-network.png" width="70px"></a>
+             <a href="https://twitter.com/Angel_93533"> <img  src="./img/twitter (1).png" width="70px"></a>
+
+
+     </footer>
+      
+
+
+    <script>
+
+
+    let button1 = document.getElementById("mc1");
+let button2 = document.getElementById("mc2");
+let button3 = document.getElementById("mc3");
+let button4 = document.getElementById("mc4");
+let button5 = document.getElementById("mc5");
+let button6 = document.getElementById("mc6");
+let button7 = document.getElementById("mc7");
+let button8 = document.getElementById("mc8");
+let button9 = document.getElementById("mc9");
+let button10 = document.getElementById("mc10");
+let button11 = document.getElementById("mc11");
+let button12 = document.getElementById("mc12");
+
+let professions = [
+  "العلوم الطبية",
+  "الهندسة",
+  "إدارة الأعمال",
+  "التخصصات التربوية",
+  "التخصصات الأدبية",
+  "العلوم التطبيقية",
+  "تخصصات البرمجة و الحاسوب",
+  "الفنون",
+  "التخصصات اللغوية",
+  "التخصصات القانونية",
+  "تخصصات الرياضيات و الإحصاء و المحاسبة",
+  " العلوم الحياتية و الإجتماعية",
+]
+
+function show(){
+
+if (button1.checked&& button3.checked&& button5.checked&& button12.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+document.getElementById("pro").innerHTML = professions[0]+ " - " +professions[1]+ " - " +professions[5];
+};
+
+if (button2.checked&& button4.checked&& button6.checked&& button11.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+document.getElementById("pro").innerHTML = professions[4]+ " - " +professions[7]+ " - " +professions[8]+ " - " +professions[11];
+};
+
+if (button2.checked&& button4.checked&& button6.checked&& button8.checked&& button10.checked&& button11.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+document.getElementById("pro").innerHTML = professions[4]+ " - " +professions[7]+ " - " +professions[8]+ " - " +professions[11]+ " - " +  professions[3];
+};
+
+if (button1.checked&& button3.checked&& button5.checked&& button7.checked&& button9.checked&& button12.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+  document.getElementById("pro").innerHTML = professions[0]+ " - " + professions[1]+ " - " +professions[5] + " - "+professions[6];
+};
+
+if (button1.checked&& button3.checked&& button6.checked&& button8.checked&& button10.checked&& button12.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+  document.getElementById("pro").innerHTML = professions[0]+ " - " +professions[5]+ " - " +professions[10];
+};
+
+if (button1.checked&& button4.checked&& button12.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+  document.getElementById("pro").innerHTML = professions[2]+ " - " +professions[5]+ " - " +professions[1];
+};
+
+if (button2.checked&&button3.checked&& button5.checked&&button8.checked&&button9.checked&& button12.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+  document.getElementById("pro").innerHTML = professions[2]+ " - " +professions[8]+ " - " +professions[9];
+};
+
+if (button2.checked&&button4.checked&& button5.checked&&button8.checked&&button10.checked&& button11.checked){
+  document.getElementById("answer1").style.visibility = "visible";
+  document.getElementById("pro").innerHTML = professions[3]+ " - " +professions[8]+ " - " +professions[4] + " - " +professions[11];
+};
+
+}
+
+
+    </script>
+</body>
+</html>
